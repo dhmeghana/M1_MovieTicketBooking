@@ -26,3 +26,22 @@ Reduces manual work,
 Simple and conveninent to use,
 Seats can be selected according to the customers choice.
 
+
+4W's    and   1H
+
+WHO
+Theater
+
+WHAT
+To bulid a system to book ticket,cancel ticket,view reserverd seats,change price of ticket(only admin)
+
+WHEN
+When user wants to carry out the tasks quickly and this reduces manual work and saves time
+
+WHERE
+This issue is in all parts of the world in theater where there is a lot of booking,cancellation of tickets happening in all the time
+
+HOW
+By creating a system which will provide all the functionalities required,the booking of, cancelling of the tickes and other actions will be take more time and system needs more workers for these actions.
+ 
+
