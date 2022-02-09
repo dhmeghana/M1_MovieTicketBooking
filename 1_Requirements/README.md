@@ -13,16 +13,16 @@ Customers can reserve any ticket they choose and cancel them at any time.
 FEATURES
 
 
-The system must allow users to log in.
-The user will be able to purchase a ticket.
-obtain a summary of the ticket booked.
-cancellation of a ticket.
+The system must allow users to log in,
+The user will be able to purchase a ticket,
+obtain a summary of the ticket booked,
+cancellation of a ticket,
 The reserved seats will be visible to the user.
 
 SWOT ANALYSIS
 
-Increased efficiency
-Reduces manual work
-Simple and conveninent to use
-Seats can be selected according to the customers choice
+Increased efficiency,
+Reduces manual work,
+Simple and conveninent to use,
+Seats can be selected according to the customers choice.
 
