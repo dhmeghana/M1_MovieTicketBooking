@@ -58,7 +58,7 @@ HIGH LEVEL REQUIREMENT
 
 LOW LEVEL REQUIREMENT
 |ID| DESCRIPTION|HLR ID|STATUS|
-|--|------------|------|------|
+|--:|------------|------|------|
 |LR01|User shall be able to login to the system with correct login details|HR01|IMPLEMENTED|
 |LR02|User need to book a ticket in a user entry mode|HR01|IMPLEMENTED|
 |LR03|If appropriate login details are not entered a message is displayed wrong password|HR01|IMPLEMENTED|
