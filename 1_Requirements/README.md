@@ -45,3 +45,29 @@ HOW
 By creating a system which will provide all the functionalities required,the booking of, cancelling of the tickes and other actions will be take more time and system needs more workers for these actions.
  
 
+HIGH LEVEL REQUIREMENT
+
+|ID| DESCRIPTION|CATEGORY|STATUS|
+|-:|:-----------|--------|------|
+|HR01|User shall be able to purchase a ticket|TECHNICAL|IMPLEMENTED|
+|HR02|User shall be able to login to the system|TECHNICAL|IMPLEMENTED|
+|HR03|User shall be able to get summary of the ticket booked|TECHNICAL|IMPLEMENTED|
+|HR04|User shall be able to cancel a ticket|TECHNICAL|IMPLEMENTED|
+|HR05|User shall be able to view the reserved seats|TECHNICAL|IMPLEMENTED|
+
+
+LOW LEVEL REQUIREMENT
+|ID| DESCRIPTION|HLR ID|STATUS|
+|--|------------|------|------|
+|LR01|User shall be able to login to the system with correct login details|HR01|IMPLEMENTED|
+|LR02|User need to book a ticket in a user entry mode|HR01|IMPLEMENTED|
+|LR03|If appropriate login details are not entered a message is displayed wrong password|HR01|IMPLEMENTED|
+|HR04|Displaying the movies available	|HR02|IMPLEMENTED|
+|HR05|Admin can change the price for the movie|HR02|IMPLEMENTED|
+|HR06|If user specifies seat number which is booked ,message appears that the seat is unavaliable|HR05|IMPLEMENTED|
+|HR07|Displaying the summary of the ticket booked|HR03|IMPLEMENTED|
+
+
+
+
+
