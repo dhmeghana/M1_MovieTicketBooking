@@ -10,38 +10,53 @@ It's a chance for the family to spend some quality time together by taking a few
 Customers can use the Movie Ticket Booking System to book movie tickets as well as acquire information about movies and venues. 
 Customers can reserve any ticket they choose and cancel them at any time.
 
-FEATURES
-
-
-The system must allow users to log in,
-The user will be able to purchase a ticket,
-obtain a summary of the ticket booked,
-cancellation of a ticket,
-The reserved seats will be visible to the user.
+|FEATURES|
+|--------|
+|The system must allow users to log in|
+|The user will be able to purchase a ticket|
+|obtain a summary of the ticket booked|
+|cancellation of a ticket|
+|The reserved seats will be visible to the user|
 
 SWOT ANALYSIS
 
-Increased efficiency,
-Reduces manual work,
-Simple and conveninent to use,
-Seats can be selected according to the customers choice.
+|STRENGTHS|
+|---------|
+|Increased efficiency|
+|Reduces manual work|
+|Simple and conveninent to use|
+|Seats can be selected according to the customers choice|
+
+WEAKNESS
+
+Limited to urban areas
+
+Needs internet access
+
+
+
 
 
 4W's    and   1H
 
 WHO
+
 Theater
 
 WHAT
+
 To bulid a system to book ticket,cancel ticket,view reserverd seats,change price of ticket(only admin)
 
 WHEN
+
 When user wants to carry out the tasks quickly and this reduces manual work and saves time
 
 WHERE
+
 This issue is in all parts of the world in theater where there is a lot of booking,cancellation of tickets happening in all the time
 
 HOW
+
 By creating a system which will provide all the functionalities required,the booking of, cancelling of the tickes and other actions will be take more time and system needs more workers for these actions.
  
 
