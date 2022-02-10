@@ -1,9 +1,9 @@
-INTRODUCTION
+## INTRODUCTION
 
 The project's goal is to provide information about MOVIE TICKET BOOKING to a consumer who wants to book tickets.The project was created with the goal of making the process as simple and quick as possible.
 The user can book tickets, cancel tickets, and view all booking records using the system.
 
-RESEARCH
+## RESEARCH
 
 Cinemas contribute to our everyday recollections by serving as an important component of our culture; going to the movies has become a part of practically every family's culture in today's generation. 
 It's a chance for the family to spend some quality time together by taking a few hours out of their busy schedule. 
@@ -18,26 +18,38 @@ Customers can reserve any ticket they choose and cancel them at any time.
 |cancellation of a ticket|
 |The reserved seats will be visible to the user|
 
-SWOT ANALYSIS
+## SWOT ANALYSIS
 
-|STRENGTHS|
-|---------|
-|Increased efficiency|
-|Reduces manual work|
-|Simple and conveninent to use|
-|Seats can be selected according to the customers choice|
+STRENGTHS
 
-WEAKNESS
+* Increased efficiency
 
-Limited to urban areas
+* Reduces manual work
 
-Needs internet access
+* Simple and conveninent to use
+
+* Seats can be selected according to the customers choice
+
+ WEAKNESS
+
+* Limited to urban areas
+
+* Needs internet access
+
+OPPORTUNITIES
+
+* Global expansion
+
+* Expand capabilities to cover more events and movies across various cities
+
+THREATS
+
+* Competition
+
+* Possibility of mismanagement due to lack of coordination among the workers
 
 
-
-
-
-4W's    and   1H
+## 4W's    and   1H
 
 WHO
 
