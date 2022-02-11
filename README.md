@@ -1,5 +1,3 @@
-# M1_MovieTicketBooking
-
 # BADGES
 
 ## CODE QUALITY SCORE
