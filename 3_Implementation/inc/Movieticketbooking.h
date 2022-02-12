@@ -84,5 +84,3 @@ void cancelticket(int *);
 
 
 #endif /* #define _Movieticketbooking_H__ */
-
-
