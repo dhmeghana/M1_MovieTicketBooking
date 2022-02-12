@@ -19,34 +19,13 @@ Customers can reserve any ticket they choose and cancel them at any time.
 |The reserved seats will be visible to the user|
 
 ## SWOT ANALYSIS
+![swot](https://user-images.githubusercontent.com/46954351/153700911-87a8cffd-a771-4eb7-98a1-1a6f106463b6.PNG)
 
-STRENGTHS
 
-* Increased efficiency
 
-* Reduces manual work
 
-* Simple and conveninent to use
 
-* Seats can be selected according to the customers choice
 
- WEAKNESS
-
-* Limited to urban areas
-
-* Needs internet access
-
-OPPORTUNITIES
-
-* Global expansion
-
-* Expand capabilities to cover more events and movies across various cities
-
-THREATS
-
-* Competition
-
-* Possibility of mismanagement due to lack of coordination among the workers
 
 
 ## 4W's    and   1H

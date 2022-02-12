@@ -1,11 +1,11 @@
 /**
  * @file Movieticketbooking.h
- * @author Meghana DH(you@domain.com)
+ * @author your name (you@domain.com)
  * @brief 
  * @version 0.1
- * @date 2022-02-08
+ * @date 2022-02-12
  * 
- * @copyright Copyright (c) 2021
+ * @copyright Copyright (c) 2022
  * 
  */
 #ifndef __Movieticketbooking_H__
@@ -84,3 +84,6 @@ void cancelticket(int *);
 
 
 #endif /* #define _Movieticketbooking_H__ */
+=======
+
+>>>>>>> 0461fd7a1572fa1ab460afa0871032c8d1c27a86
