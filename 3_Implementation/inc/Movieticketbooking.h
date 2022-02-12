@@ -1,23 +1,23 @@
 /**
- * @file function.h
- * @author Goutami D Honagannavar (you@domain.com)
+ * @file Movieticketbooking.h
+ * @author Meghana DH(you@domain.com)
  * @brief 
  * @version 0.1
- * @date 2021-09-05
+ * @date 2022-02-08
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __FUNCTION_H__
-#define __FUNCTION_H__
+#ifndef __Movieticketbooking_H__
+#define ___Movieticketbooking_H__
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "math.h"
 #include "assert.h"
 
-#ifndef __FUNCTION_H__
-#define __FUNCTION_H__
+#ifndef __Movieticketbooking_H__
+#define __Movieticketbooking_H__
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -32,7 +32,7 @@
 
 
 
-#endif /* #define _FUNCTION_H__ */
+#endif /* #define _Movieticketbooking_H__ */
 
 
 /**
@@ -83,4 +83,4 @@ void reserveticket(int *,int,int );
 void cancelticket(int *); 
 
 
-#endif /* #define _FUNCTION_H__ */
+#endif /* #define _Movieticketbooking_H__ */
