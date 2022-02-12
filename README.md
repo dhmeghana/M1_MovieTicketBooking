@@ -1,4 +1,4 @@
-# Badges
+# BADGES
 
 ## Code Quality Score
 
