@@ -1,5 +1,7 @@
 #Target_name : Dependencies
-#<TAB>Command
+#<TAB>Command   
+
+
 SRC = cancellation.c\
 src/choice.c\
 src/detailsofmovie.c\
@@ -15,19 +17,10 @@ src/ticketprice.o\
 
 INC = inc
 
-#CXX = cpp
-#CC = gcc
-#AS = as
-#LD =  ld
 
 
 CFLAGS = -I$(INC)
-# -DMACROS_value
-# -g
-# -v 
 
-#ASFLAGS
-#LDFLAGS = -Lpath_lib_lname
 all.out :$(OBJ)
 	$(CC) $^ -I$(INC) -o $@
 
