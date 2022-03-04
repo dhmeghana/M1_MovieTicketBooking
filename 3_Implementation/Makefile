@@ -1,48 +1,53 @@
-#Target_name : Dependencies
-#<TAB>Command   
-
-
-SRC = cancellation.c\
+PROJ_NAME = Movie_Ticket_Booking
+SRC = MAIN.c\
+src/cancellation.c\
 src/choice.c\
 src/detailsofmovie.c\
 src/movielist.c\
 src/ticketprice.c\
 
-OBJ = cancellation.o\
-src/choice.o\
-src/detailsofmovie.o\
-src/movielist.o\
-src/ticketprice.o\
+#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
+INC	= -Iinc\
+-Iunity
+
+all: $(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
 
-INC = inc
+run: all
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+# Build and run of Unit test
 
+build_test:
+	gcc $(TEST_SRC) $(INC) $(INCLUDE_LIBS) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-CFLAGS = -I$(INC)
+run_test: build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-all.out :$(OBJ)
-	$(CC) $^ -I$(INC) -o $@
+analyze: test memcheck staticcheck coverage sanitize_check
 
-%.o:src/%.c 
-	gcc  $^ -I$(INC) -c
+staticcheck:
+	cppcheck --enable=all -iunity .
 
-%.o:src/%.c 
-	gcc $^ -I$(INC) -c
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
 
-%.o:src/%.c 
-	gcc $^ -I$(INC) -c
+sanitize_check:
+	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) 
+	./$(TEST_OUTPUT)
 
-%.o:src/%.c 
-	gcc  $^ -I$(INC) -c
-
-%.o:src/%.c 
-	gcc  $^ -I$(INC) -c
-	
-
-
-
-run: target
-	./all.out
 clean:
-rm all.out *.o src/*.o
+	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
